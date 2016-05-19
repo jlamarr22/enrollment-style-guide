@@ -1,0 +1,17 @@
+.no-border {
+  tr {
+    td {
+      border-bottom: 0;
+      border-top: 0;
+    }
+  }
+}
+
+.table-word-wrap {
+  table-layout: fixed;
+  width: 100%
+}
+
+.word-wrap {
+  word-wrap: break-word;
+}

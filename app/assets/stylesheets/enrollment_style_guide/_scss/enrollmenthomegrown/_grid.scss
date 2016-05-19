@@ -1,0 +1,25 @@
+.grid-label{
+  font-weight: $font-bold;
+  text-align: right;
+  vertical-align: top;
+}
+
+.float-right {
+  float: right;
+}
+
+.accordion-content-padding {
+  padding-left: 0rem;
+}
+
+.usa-grid {
+  .accordion-content-margin {
+    margin-right: 0;
+  }
+}
+
+.confirmation-grid {
+  .detail-element:nth-child(even).white-background {
+    background: $color-white;
+  }
+}

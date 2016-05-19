@@ -1,0 +1,31 @@
+.form-full-width{
+  max-width: 100rem;
+}
+
+.uneditable{
+  background: $lightgray_10;
+}
+
+.form-field {
+	position: relative;
+
+	label,
+	input {
+		position: relative;
+		display: block;
+
+		&.is-required {
+			position: relative;
+			display: inline-block;
+			left: 4px;
+		}
+	}
+
+	.is-required-asterisk {
+		position: absolute;
+		top: 1px;
+		left: calc(100% + 4px);
+		width: 8px;
+		fill: $color-base;
+	}
+}
