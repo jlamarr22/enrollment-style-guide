@@ -1,0 +1,6 @@
+@mixin backface-visibility($backface-visibility) {
+	-webkit-backface-visibility: $backface-visibility;
+	-moz-backface-visibility: $backface-visibility;
+	-o-backface-visibility: $backface-visibility;
+	backface-visibility: $backface-visibility;
+}

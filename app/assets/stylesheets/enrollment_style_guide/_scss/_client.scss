@@ -1,0 +1,159 @@
+.btn-default {
+  background: #d8d8d8;
+}
+
+.actions {
+  text-align: right;
+}
+
+.mailing-address-confirmation button {
+  width: 225px;
+  padding: 1.3em 1.6em 1.3em 1.6em;
+  font-weight: bold;
+}
+
+.mailing-address-confirmation button:nth-child(2) {
+  margin-left: 3%;
+}
+
+#mailing-address-div {
+  display: none;
+}
+
+#bs-example-navbar-collapse-1 a {
+  color: #333;
+
+  &.section_done {
+    color: green;
+  }
+}
+
+.accordion {
+  border-bottom: 1px solid #222;
+
+  .collapse {
+    padding-bottom: .5rem;
+  }
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.client_screen_active {
+  background-color: lightgrey;
+}
+.client_screen_visible {
+  display: block;
+}
+.not-visible {
+  display: none;
+}
+
+#employer_categories,#employer_categories_government li {
+  list-style-type: none;
+
+  input[type="radio"] {
+    margin-right: 3%;
+  }
+}
+
+.crumb {
+  cursor: pointer;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.helper-text {
+  margin-top: 27px;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  padding: 10px 15px;
+  font-size: 16px;
+  line-height: 1.22;
+  border-radius: 25px;
+  border: 1px solid #b5b5b5;
+  background: #d8d8d8;
+}
+
+#ein-helper-text {
+  margin-top: 47px;
+}
+
+.card-grid {
+  height: 150px;
+}
+
+#naics-code-display-square {
+  width: 90%;
+  min-height: 130px;
+  background: gainsboro;
+  margin: 5%;
+  padding: 5%;
+  text-align: center;
+}
+
+#naics-code-options {
+  margin-bottom: 50px;
+}
+#naics_button {
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.inline-center {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.helper-text-icon {
+  @extend .btn-circle;
+  margin-left: 5px;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group.input-inline input {
+  display: inline-block;
+}
+
+
+.form-group .label-description {
+    display: block;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+
+.width-50 {
+  width: 50%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.character-count-total {
+  display: inline-block;
+}

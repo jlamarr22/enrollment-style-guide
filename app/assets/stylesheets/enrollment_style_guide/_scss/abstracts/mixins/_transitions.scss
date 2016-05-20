@@ -1,0 +1,28 @@
+@mixin transition($elements: all, $duration: 250ms, $animation: ease) {
+    -moz-transition: $elements $duration $animation;
+    -o-transition: $elements $duration $animation;
+    -webkit-transition: $elements $duration $animation;
+    transition: $elements $duration $animation;
+}
+
+
+@mixin card-transition($transition: $speed-card-flip, $transform-style: preserve-3d) {
+	-webkit-transition: $transition;
+  -webkit-transform-style: $transform-style;
+  -moz-transition: $transition;
+  -moz-transform-style: $transform-style;
+  -o-transition: $transition;
+  -o-transform-style: $transform-style;
+  -ms-transition: $transition;
+  -ms-transform-style: $transform-style;
+  transition: $transition;
+  transform-style: $transform-style;
+}
+
+@mixin rotateY($y-degree) {
+	-webkit-transform: rotateY($y-degree);
+	-moz-transform: rotateY($y-degree);
+	-o-transform: rotateY($y-degree);
+	-ms-transform: rotateY($y-degree);
+	transform: rotateY($y-degree);
+}

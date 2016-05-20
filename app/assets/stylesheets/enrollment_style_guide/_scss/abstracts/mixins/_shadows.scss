@@ -1,0 +1,24 @@
+@mixin shadow($x, $y, $blur, $color) {
+	-webkit-box-shadow: $x $y $blur $color;
+	-moz-box-shadow: $x $y $blur $color;
+	box-shadow: $x $y $blur $color;
+}
+
+
+@mixin shadow-sm($x: 1px, $y: 1px, $blur: 1px, $color: rgba($color-black,.15)) {
+	-webkit-box-shadow: $x $y $blur $color;
+	-moz-box-shadow: $x $y $blur $color;
+	box-shadow: $x $y $blur $color;
+}
+
+@mixin shadow-md($x: 2px, $y: 2px, $blur: 2px, $color:rgba($color-black,.15)) {
+	-webkit-box-shadow: $x $y $blur $color;
+	-moz-box-shadow: $x $y $blur $color;
+	box-shadow: $x $y $blur $color;
+}
+
+@mixin shadow-lg($x: 4px, $y: 4px, $blur: 4px, $color:rgba($color-black,.25)) {
+	-webkit-box-shadow: $x $y $blur $color;
+	-moz-box-shadow: $x $y $blur $color;
+	box-shadow: $x $y $blur $color;
+}

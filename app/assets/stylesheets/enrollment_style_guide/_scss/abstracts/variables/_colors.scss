@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+//! COLORS
+// -----------------------------------------------------------------------------
+
+	// PRIMARY
+		$color-primary: #003366;
+
+	// LINK		
+		$color-link: #0074C2;
+			// 508 Compliant up to background of #f5f5f5
+	
+	// SLATE BLUE
+		$color-slateblue: #f1f3f4;	
+
+	// RED
+		$color-red: #f05757;
+	
+	// GRAYS
+		$color-gray: #757575;
+		$color-gray-90: lighten($color-gray, 10%);
+		$color-gray-75: lighten($color-gray, 25%);
+		$color-gray-50: lighten($color-gray, 50%);
+		
+		$color-lightgray: #ebebeb;
+	
+	// WHITE/OFFWHITE
+		$color-offwhite-darken: #f2f2f2;
+		$color-offwhite: #f8f8f8;
+		$color-offwhite-lighten: #fbfbfb;
+		$color-white: #ffffff;
+
+	// BLACK
+		$color-black: #000000;

@@ -1,0 +1,102 @@
+.card-container { // entire container, keeps perspective
+	display: block;
+	width: 100%;
+	margin-bottom: 1rem;
+	@include perspective(1000);
+	transform-style: preserve-3d;
+
+	&.is-active .back {
+		@include rotateY(0deg);
+	}
+
+	&.is-active .front {
+    @include rotateY(180deg);
+	}
+
+}
+
+.flip-animation {
+	position: relative;
+	@include card-transition();
+}
+
+.front,
+.back { // hide back of pane during swap
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+  width: 100%;
+  height: 150px;
+  border: 1px solid $color-gray-75;
+	@include border-radius(.25rem);
+	@include backface-visibility(hidden);
+	@include card-transition();
+	@include shadow-sm();
+}
+
+.front { // front pane, placed above back
+	z-index: 2;
+	@include rotateY(0deg);
+
+	&:hover {
+		cursor: pointer;
+		@include shadow-lg();
+	}
+}
+
+.back { // back, initially hidden pane
+	@include rotateY(-180deg);
+}
+
+.card-block {
+  padding: 1rem;
+}
+
+
+// styling for employer_category cards with inputs
+
+
+.employer-categories-list-item {
+	display: table;
+
+	input[type="radio"],
+	label {
+		display: table-cell;
+	}
+
+	input[type="radio"] {
+		width: 24px;
+	}
+
+	label {
+		width: calc( 100% - 24px );
+	}
+}
+
+.card-help {
+	margin: 5px 0px;
+	padding: 10px 0px;
+	border: 1px solid #b5b5b5;
+  border-radius: 0.25rem;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  cursor: pointer;
+}
+
+.static-card-title {
+	text-align: center;
+	margin: 0;
+}
+
+.static-card input[type=radio]{
+    display:none
+}
+
+.static-card-label {
+    display: inline-block;
+    width: 100%;
+		font-weight: 500;
+		padding-top: 20px;
+		cursor: pointer;
+}

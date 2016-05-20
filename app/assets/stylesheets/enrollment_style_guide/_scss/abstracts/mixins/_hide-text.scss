@@ -1,0 +1,3 @@
+@mixin hide-text($indent: -500rem) {
+	text-indent: $indent;
+}

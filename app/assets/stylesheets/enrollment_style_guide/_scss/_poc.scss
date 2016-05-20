@@ -1,0 +1,86 @@
+.center-box {
+  margin-top: 30px;
+  background-color: #f0f0f0;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+#total_hiring_sites {
+  border: black solid 1px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#add-poc-btn-no-poc {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hiring-site-state-section, .state-section-title {
+  background: #F2F2F2;
+}
+
+#mou_help_text {
+  color: black;
+  cursor: hand;
+}
+
+#help_text_replace_mou {
+  padding-top: 15px;
+}
+
+#poc_list .list-group-item-heading {
+  margin: 10px 15px 10px 15px;
+  font-weight: bold;
+}
+
+#poc_list input[type=text] {
+  margin: 10px 0px 10px 0px;
+  border: 0px;
+  outline: none;
+
+}
+#poc_list input[type=radio] {
+  margin: 15px 15px 10px 40px;
+  text-align: center;
+  padding: 1px;
+  line-height: 20px;
+}
+#poc_list li.poc_section_list {
+  margin: 0px 15px 0px 15px;
+  border: 1px solid black;
+  border-width: 1px 0px 1px 0px;
+  border-collapse: collapse;
+}
+
+.fa {
+  margin: 10px;
+  font-size: 2em;
+}
+.poc-modified {
+  color: #999999;
+  font-size: small;
+}
+
+.identified_mou {
+  margin: 10px;
+  border: 1px solid gray;
+  padding: 10px 10px 10px 0px;
+}
+
+#exclamation_mou {
+  padding: 0px 0px 0px 20px;
+  margin-right: -50px;
+}
+
+.fa-exclamation {
+  font-size: 3em;
+  margin-top: 0px;
+}
+
+#point_of_contact_mou_signatory_label {
+  display: inline-flex;
+  margin-right: 10px;
+}
